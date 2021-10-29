@@ -1,4 +1,4 @@
-# graphs-and-tables
+# Transcription Tools
 
-Some tools I developed while doing transcritpions of slides for a blind student at SFU (Simon Fraser University).
+Some scripts I developed while doing transcritpions of slides for a blind student at SFU (Simon Fraser University).
 
