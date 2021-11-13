@@ -1,0 +1,80 @@
+[
+  {
+    "name": "PC",
+    "short_name": "pc",
+    "cons": ["add1", "addr"]
+  },
+  {
+    "name": "Add (1)",
+    "short_name": "add1",
+    "cons": ["add2"]
+  },
+  {
+    "name": "4",
+    "short_name": "4",
+    "cons": ["add1"]
+  },
+  {
+    "name": "Add (2)",
+    "short_name": "add2",
+    "cons": ["pc"]
+  },
+  {
+    "name": "Instruction memory",
+    "short_name": "insmem",
+    "subitems": [
+      {
+        "name": "Address",
+        "short_name": "addr"
+      },
+      {
+        "name": "Insturction",
+        "short_name": "instr",
+        "cons":  ["reg1", "reg2", "reg3", "alu"]
+      }
+    ]
+  },
+  {
+    "name": "Registers",
+    "short_name": "regs",
+    "cons": ["alu", "alu", "data2"],
+    "subitems": [
+      {
+        "name": "Data",
+        "short_name": "data"
+      },
+      {
+        "name": "Register #1",
+        "short_name": "reg1"
+      },
+      {
+        "name": "Register #2",
+        "short_name": "reg2"
+      },
+      {
+        "name": "Register #3",
+        "short_name": "reg3"
+      }
+    ]
+  },
+  {
+    "name": "ALU",
+    "short_name": "alu",
+    "cons": ["add2", "data"]
+  },
+  {
+    "name": "Data Memory",
+    "short_name": "datamem",
+    "cons": ["data"],
+    "subitems": [
+      {
+        "name": "Address",
+        "short_name": "addr2"
+      },
+      {
+        "name": "Data",
+        "short_name": "data2"
+      }
+    ]
+  }
+]
