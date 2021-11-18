@@ -1,5 +1,5 @@
 # used if you want to add links to the tree, or a node in the tree
-ID = "t0"
+ID = "t9"
 
 # example of tree (commented out)
 '''
@@ -19,5 +19,46 @@ tree  = [
 
 # the tree you want converted to HTML, here:
 tree = [
-  ("root value", [])
+  ("n", [
+    ("n/2", [
+      ("n/4", [
+        ("n/8", [
+          ("...", [
+            ("2", [
+              "1", "1"
+            ]),
+          ]),
+        ]),
+        ("n/8", [
+          "..."
+        ]),
+      ]),
+      ("n/4", [
+        ("n/8", [
+          "..."
+        ]),
+        ("n/8", [
+          "..."
+        ]),
+      ]),
+    ]),
+    ("n/2", [
+      ("n/4", [
+        ("n/8", [
+          "..."
+        ]),
+        ("n/8", [
+          "..."
+        ]),
+      ]),
+      ("n/4", [
+        ("n/8", [
+          "..."
+        ]),
+        ("n/8", [
+          "..."
+        ]),
+      ]),
+    ]),
+  ]),
 ]
