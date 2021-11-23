@@ -1158,7 +1158,9 @@ if FILENAME != "":
   final_output += output
   final_output += "</body></html>"
 else:
+  final_output += "<!-- GENERATED HTML FROM PYTHON CODE -->"
   final_output += output
+  final_output += "<!-- END OF GENERATED HTML FROM PYTHON CODE -->"
 
 if BEAUTIFUL_SOUP:
   bs = BS(final_output, "html.parser")

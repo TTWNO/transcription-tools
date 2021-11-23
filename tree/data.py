@@ -19,5 +19,18 @@ tree  = [
 
 # the tree you want converted to HTML, here:
 tree = [
-  ("root value", [])
+  ("n", [
+    ("n-1", [
+      ("n-2", [
+        ("n-3", [
+          ("... (left)", [
+            "1", "0"
+          ]),
+        ]),
+        "0"
+      ]),
+      "0"
+    ]),
+    "0"
+  ]),
 ]
